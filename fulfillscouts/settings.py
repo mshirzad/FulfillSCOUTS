@@ -26,7 +26,7 @@ SECRET_KEY = 'c8caf8^yys*0cebi%w9snzd-5_pidsvr$a(94pd1)d@=d=_@r('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
