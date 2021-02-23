@@ -1,0 +1,424 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FulfillSCOUTS</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="{% static 'contact/assets/favicon.png' %}" rel="icon">
+  <link href="{% static 'contact/assets/favicon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{% static 'contact/lib/bootstrap/css/bootstrap.css' %}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{% static 'contact/lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'contact/lib/animate/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'contact/lib/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'contact/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'contact/lib/magnific-popup/magnific-popup.css' %}" rel="stylesheet">
+  <link href="{% static 'contact/lib/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{% static 'contact/css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="body">
+
+  <!--==========================
+    Top Bar
+  ============================-->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+        <i class="fa fa-envelope-o"></i> <a href="mailto:support@fulfillscout.com/">support@fulfillscout.com</a>
+        <i class="fa fa-phone"></i> +1 772-348-7334
+      </div>
+      <div class="social-links float-right">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="skype"><i class="fa fa-skype"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- <h1><a href="#body" class="scrollto">SECUR<span>3PL</span></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="#body"><img src="{% static 'contact/assets/logo.png' %}" alt="secur3pl logo" title="" /></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#body">Home</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a class="apply-now-btn" href="#sendmessagelocation">Apply Quary Now </a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+
+    <div class="intro-content">
+      <h2>Apply <span>To work</span><br>with us!</h2>
+      <p>Get started with a quote and we will reach out within 2 business days</p>
+      <div>
+        <a href="#sendmessagelocation" class="btn-get-started scrollto">Get Started</a>
+      </div>
+    </div>
+
+    <div id="intro-carousel" class="owl-carousel" >
+      <div class="item" style="background-image: url('../../static/contact/assets/world_logistic.jpg');"></div>
+    </div>
+
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 about-img">
+            <img src="../../static/contact/assets/world_logistic.jpg" alt="world_logistic">
+          </div>
+
+          <div class="col-lg-6 content">
+            <h2>Convert Your Dropshipping Store to a Sustainable & Scalable Brand</h2>
+            <h3>By sourcing the highest quality goods and fastest premium shipping lines,
+              we will take your E-commerce business to the next level.</h3>
+
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i> Helping you scale your business</li>
+              <li><i class="ion-android-checkmark-circle"></i> Fully Automated Fulfillment</li>
+              <li><i class="ion-android-checkmark-circle"></i> Full Transparency</li>
+              <li><i class="ion-android-checkmark-circle"></i> Quality and Speed</li>
+              <li><i class="ion-android-checkmark-circle"></i> Manufacturers Direct Supplier (No Middle Men)</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p><b>We provide services for dropshippers all over the world!</b></p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <!-- <div><img src="../../static/contact/assets/product_sourcing.jpeg" height="60px" width="120px"></div> -->
+              <h4 class="title"><a href="">Product Sourcing</a></h4>
+              <p class="description">We Source Any Product Directly From The Factory To Provide You With The Best Quality, Best Value, And The Fastest Lead Times.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fa fa-home"></i></div>
+              <h4 class="title"><a href="">Inventory Storage</a></h4>
+              <p class="description">We Store Inventory For You So That Order Processing Is As Fast As Possible. We Fulfill Within 24 Hours When We Have Ready Stock.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-building"></i></div>
+              <h4 class="title"><a href="">Branding</a></h4>
+              <p class="description">We Can Include Package Inserts, Custom Packaging, Private Labeling, And Full Custom Production To Build And Protect Your Brand.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-map"></i></div>
+              <h4 class="title"><a href="">Efficient Fulfillment</a></h4>
+              <p class="description">Our Fulfillment App Integrates With Your Storefront With Automatic Order Processing To Make Fulfillment As Easy As Possible.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Quality Guarantees</a></h4>
+              <p class="description">We Check Every Item For Defects And Will Refund Or Resend Any Order That Arrives Damaged, As Well As Any Lost In Shipping.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-plane"></i></div>
+              <h4 class="title"><a href="">Fast Shipping</a></h4>
+              <p class="description">Our Special Line Delivers To The US, UK, DE, FR, SP, And IT In 5 To 8 Days. Our Regular Delivers To 30 Countries In 7 To 12 Days.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Apply Now!</h3>
+            <p class="cta-text"> Get in touch with us to experience the best services.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#sendmessagelocation">Apply Now</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      Our Team Section
+    ============================-->
+    <section id="team" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Team</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+              <div class="details">
+                <h4>Massi Shirzad</h4>
+                <span>Co Founder</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+              <div class="details">
+                <h4>David Anderson</h4>
+                <span>Account Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-3.jpg" alt=""></div>
+              <div class="details">
+                <h4>Alexis Huang</h4>
+                <span>COO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+              <div class="details">
+                <h4>Marry Morgan</h4>
+                <span>Finance Admin</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>A110 Adam Street, NY 535023, USA</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+17723487334">+1 772-348-7334</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:support@fulfillscout.com">support@fulfillscout.com</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container mb-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <section>
+        <a id="sendmessagelocation" ></a>
+        <h3>{{message}}</h3>
+        <div>
+          <!-- <div class="form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form role="form" class="contactForm">
+              {% csrf_token %}
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="f_name"  required class="form-control" id="name" 
+                  placeholder="Your Full Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" /> 
+                  <div id="no-name"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" name="email"  id="email" 
+                  placeholder="Your Email (We send the qoute to your email)" data-rule="email" data-msg="Please enter a valid email" ></input>
+                  <div class="validation"></div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="skype_id"  class="form-control" id="skype" 
+                  placeholder="Your Skype ID for ongoing communication" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="number" class="form-control" name="orders" id="orders" 
+                  placeholder="Number of orders per day" data-rule="" data-msg="Please enter a valid number" />
+                  <div class="validation"></div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="countries" class="form-control" id="countries" 
+                  placeholder="List of countries you ship to" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" name="product"  id="product" 
+                  placeholder="AliExpress of Alibaba product link" data-rule="minlen:4" data-msg="Please enter a valid link" />
+                  <div class="validation"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" id="message" rows="5" data-rule="" 
+                data-msg="Please write something for us" placeholder="Further instructions (optional)"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center"><button type="submit" id="sub-btn">Submit Quary</button></div>
+            </form>
+          </div> -->
+          <div class="contact-form2">
+            <form action="/" method="POST">
+              {%csrf_token%}
+              {{form.f_name}}
+              {{form.email}}
+              {{form.skype_id}}
+              {{form.orders}}
+              {{form.countries}}
+              {{form.product}}
+              {{form.message}}
+              <input type="submit" value="SUBMIT QUERY">
+            </form>
+          </div>
+        </div>
+      </section><!-- #contact -->
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>FULFILLMET<b>SCOUTS</b></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <link href="{% static 'contact/css/additional_style.css' %}" rel="stylesheet">
+
+  <!-- JavaScript Libraries -->
+  <script src="{% static 'contact/lib/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'contact/lib/jquery/jquery-migrate.min.js' %}"></script>
+  <script src="{% static 'contact/lib/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'contact/lib/easing/easing.min.js' %}"></script>
+  <script src="{% static 'contact/lib/superfish/hoverIntent.js' %}"></script>
+  <script src="{% static 'contact/lib/superfish/superfish.min.js' %}"></script>
+  <script src="{% static 'contact/lib/wow/wow.min.js' %}"></script>
+  <script src="{% static 'contact/lib/owlcarousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'contact/lib/magnific-popup/magnific-popup.min.js' %}"></script>
+  <script src="{% static 'contact/lib/sticky/sticky.js' %}"></script>
+  
+
+  <!-- Contact Form JavaScript File -->
+  <script src="{% static 'contact/contactform/contactform.js' %}"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="{% static 'contact/js/main.js' %}"></script>
+  <script src="{% static 'contact/js/submit.js' %}"></script>
+
+</body>
+</html>

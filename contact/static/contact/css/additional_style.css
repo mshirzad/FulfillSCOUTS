@@ -1,0 +1,32 @@
+.contact-form2{
+    width: 80%;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.contact-form2 input{
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+}
+.contact-form2 textarea{
+    width: 100%;
+    margin-top: 5px;
+    height: 200px;
+}
+
+.contact-form2 input[type="submit"]{
+    background: #50d8af;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  
+ .contact-form2 input[type="submit"]:hover {
+    background: #2dc899;
+  }
